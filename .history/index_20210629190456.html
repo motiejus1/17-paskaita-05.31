@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17 paskaita</title>
+</head>
+<body>
+    
+    
+    
+    
+    <script>
+   "use strict";
+   
+   var x, a,suma;
+    x = 5;
+    a = 3;
+    suma = a + x;
+
+    console.log(suma);
+
+    var tekstas = "as esu tekstas";
+    var skaicius = 5;
+
+    console.log(tekstas + skaicius); //kad jie pavirsta i teksta
+    console.log(tekstas * skaicius);// NaN    
+
+    //Lygybe - priskyrimas
+    x = a; // x = 3
+
+    //Suma    
+    x += 5; // x = x + 5  x= 3+5 = 8
+    //Skirtumas
+    x -= 18; // x = x - 18 x= 8 - 18 = -10   
+    //Daugyba
+    x *= 10 // x= x * 10 x= -10*10 = -100
+    //Dalyba
+    x /= -10 // x= x / (-10) x= -100 / (-10) = 10
+    // Liekana 
+    x %= a  // x = x % a x= 10 % 3 = 1
+    //LAipsniu 
+    x **= 19 // x = x ** 19 = 1 ** 19 = 1;
+    
+    var skaicius = 15;
+
+    // ar skaicius daugiau uz 0? jei taip - padauginti is 2, jei ne, padalinti is 2
+    
+    // true ir false
+    // -15 > 0
+    // false
+
+    // 15 > 0
+    // true
+
+    //-15 > 0 
+    //false
+    // pereinama i else ir vykdomi veiksmai
+
+    // 15 > 0
+    //true
+    //i else nepereinama
+    //vykdomi veiksmai
+    
+
+    // >
+    // <
+    // >=
+    // <=
+    // ==
+    // !=
+
+    //skaicius = 15;
+    // 15 < 0
+    // false
+    //pereina i else 
+    
+    // skaiciu padalina is 2 = 7.5
+    //isveda skaicius yra maziau uz 0
+    
+    
+    skaicius = 0; //??? kuris veiksmas vykdomas?    
+
+    // 0 < 0
+    // false
+    // pereina i else salyga
+
+    // skaicius = 15
+    // 15 < 0
+    // false
+    // einama i else salyga
+    // 15 > 0
+    // tiesa
+
+    //skaicius = 0
+    //0 < 0
+    //false
+    // einama i else salyga
+    // 0 > 0
+    //false
+    // einama i else salyga
+    // 0 == 0
+    // true
+
+    
+    // skaicius = "labas";
+    // labas < 0
+    // false
+    // einama i else salyga
+    //labas > 0
+    // einama i else salyga
+    // labas == 0
+    // einama i else
+    // skaicius net ne skaicius
+
+    skaicius = "labas";
+    
+    if(skaicius < 0) {
+        //kodas, kuris vykdomas tada, kada salyga yra igyvendinama
+        skaicius /= 2; // skaicius = skaicius / 2
+        console.log("Skaicius yra mazesnis uz 0:" + skaicius); 
+          
+    } else if(skaicius > 0) { // skaicius > 0
+        skaicius *= 2; //skaicius = skaicius * 2 
+        console.log("Skaicius yra didesnis uz 0:" + skaicius);     
+    } else if(skaicius == 0) {
+        console.log("Skaicius yra 0");
+    } else {
+        console.log("skaicius net ne skaicius");
+    }
+
+
+    // Patikrinkite ar skaicius lyginis ar ne ir isveskite informacija
+
+    skaicius = 18;
+
+    //skaicius % 2 = 0 vadinasi skaicius lyginis
+    // skaicius % 2 != 0 vadinasi skaicius yra nelyginis
+    // 
+    
+    
+    </script>
+</body>
+</html>
